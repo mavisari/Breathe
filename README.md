@@ -20,6 +20,13 @@ The BREATHE system is based on several interacting components:
 
 The system architecture ensures continuous data acquisition from home monitoring devices and provides secure access to medical information.
 
+<p align="center">
+  <img src="Images/home.png" width="800">
+</p>
+<p align="center">
+  <em>Figure 1 – Home page.</em>
+</p>
+
 ## User Roles
 The application supports three main user roles, each with a dedicated interface and functionalities. 
 
@@ -35,6 +42,14 @@ The patient (or caregiver) is the central actor of the system. Through the appli
 - Receive notifications and alerts
 Sleep data are automatically collected by the external device during the night and synchronized with the application.
 
+<p align="center">
+  <img src="Images/patient_dashboard.png" width="800">
+</p>
+<p align="center">
+  <em>Figure 2 – Patient dashboard showing sleep monitoring data and system navigation.</em>
+</p>
+
+
 ### Specialist 
 The specialist monitors patient health conditions and manages clinical activities. The specialist interface allows the clinician to:
 - Access the list of assigned patients
@@ -46,6 +61,14 @@ The specialist monitors patient health conditions and manages clinical activitie
 - Access the patient’s Electronic Health Record (EHR)
 The system also integrates with healthcare infrastructure through a middleware that enables data exchange with the national healthcare system
 
+<p align="center">
+<img src="Images/specialist_dashboard.png" width="400">
+<img src="Images/specialist_dashboard2.png" width="400">
+</p>
+<p align="center">
+<em>Figure 3 – Specialist interfaces of the BREATHE system.</em>
+</p>
+
 ### Technician
 The technician is responsible for system administration and maintenance. Through the technician dashboard, the technician can:
 - Approve or reject new user registrations
@@ -54,6 +77,14 @@ The technician is responsible for system administration and maintenance. Through
 - Perform database backups
 - Maintain system integrity and security
 This role ensures that the platform operates correctly and that all user profiles are properly verified.
+
+<p align="center">
+<img src="Images/technician_dashboard.png" width="400">
+<img src="Images/backup.png" width="400">
+</p>
+<p align="center">
+<em>Figure 4 – Technician interfaces of the BREATHE system and example a task (backup of the system).</em>
+</p>
 
 ## Technologies Used 
 The system was developed using the following technologies:
@@ -98,7 +129,12 @@ This will launch the graphical interface where users can select their role and l
 
 # External Device Integration 
 The system supports integration with external sleep monitoring devices. Once connected via Bluetooth, the device automatically uploads collected physiological data to the system database. These data include heart rate, respiratory rate, sleep stages, apnea events and night movements. The data are then visualized through graphs and reports in the application interface. 
-
+<p align="center">
+  <img src="Images/sleep_analysis.png" width="800">
+</p>
+<p align="center">
+  <em>Figure 5 – Sleep Analysis visualization from external device.</em>
+</p>
 
 # Main Functionalities 
 The BREATHE system provides several key features:
@@ -110,6 +146,23 @@ The BREATHE system provides several key features:
 - Integration with healthcare systems
 - Administrative system management
 These functionalities support continuous monitoring and follow-up of patients affected by sleep disorders.
+
+<p align="center">
+<img src="Images/chat.png" width="400">
+<img src="Images/visit.png" width="400">
+</p>
+
+<p align="center">
+<img src="Images/manual_data.png" width="400">
+<img src="Images/data.png" width="400">
+</p>
+
+<p align="center">
+  <img src="Images/questionnaires.png" width="500">
+</p>
+<p align="center">
+<em>Figure 6 – Examples of features in the BREATHE system.</em>
+</p>
 
 # Limitation and Future Improvements 
 Although the system provides a complete monitoring workflow, some limitations remain. Future developments could include:
