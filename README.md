@@ -65,12 +65,14 @@ The system was developed using the following technologies:
 
 # Installation 
 To run the project locally, first clone the repository:
-'''bash 
+
+```bash
 git clone https://github.com/your-username/breathe-project.git
 cd breathe-project
-''' 
+```
+
 Create a virtual environment:
-'''bash 
+```bash 
 python -m venv venv
-''' 
+```
 
