@@ -75,4 +75,22 @@ Create a virtual environment:
 ```bash 
 python -m venv venv
 ```
+Activate the virtual environment:
+MacOS/Linux
+```bash 
+source venv/bin/activate
+```
+Windows 
+```bash 
+venv\Scripts\activate
+```
+Install the required dependencies: 
+```bash 
+pip install -r requirements.txt
+```
 
+# Running the Application 
+To start the application, run: 
+```bash 
+python main.py
+```
