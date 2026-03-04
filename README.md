@@ -67,7 +67,7 @@ The system was developed using the following technologies:
 To run the project locally, first clone the repository:
 
 ```bash
-git clone https://github.com/your-username/breathe-project.git
+git clone https://github.com/mavisari/Breathe.git
 cd breathe-project
 ```
 
@@ -94,3 +94,33 @@ After creating thr database and filled it, to start the application, run:
 ```bash 
 python SoftwareInteraction.py
 ```
+This will launch the graphical interface where users can select their role and log into the system. Depending on the role selected (Patient, Specialist, Technician), the system loads the corresponding dashboard and functionalities.
+
+# External Device Integration 
+The system supports integration with external sleep monitoring devices. Once connected via Bluetooth, the device automatically uploads collected physiological data to the system database. These data include heart rate, respiratory rate, sleep stages, apnea events and night movements. The data are then visualized through graphs and reports in the application interface. 
+
+
+# Main Functionalities 
+The BREATHE system provides several key features:
+- Remote monitoring of sleep-related parameters
+- Patient-specialist communication
+- Medical questionnaire management
+- Appointment scheduling
+- Prescription management
+- Integration with healthcare systems
+- Administrative system management
+These functionalities support continuous monitoring and follow-up of patients affected by sleep disorders.
+
+# Limitation and Future Improvements 
+Although the system provides a complete monitoring workflow, some limitations remain. Future developments could include:
+- Integration with additional medical devices
+- Real-time data visualization
+- Mobile application support
+- Advanced analytics and AI-based anomaly detection
+- Enhanced security and data privacy mechanisms
+
+# Authors
+Group 7 - Medical Informatics 
+Politecnico di Milano 
+Giselda Maria Cucci, Anna Mantelli, Martina Onetti, Maria Vittoria Sari, Chiara Spitoni, Vanessa Volpato 
+Academic Year 2024 - 2025
