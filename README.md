@@ -21,7 +21,7 @@ The BREATHE system is based on several interacting components:
 The system architecture ensures continuous data acquisition from home monitoring devices and provides secure access to medical information.
 
 <p align="center">
-  <img src="Images/home.png" width="800">
+  <img src="Images/home.png" width="500">
 </p>
 <p align="center">
   <em>Figure 1 – Home page.</em>
@@ -43,7 +43,7 @@ The patient (or caregiver) is the central actor of the system. Through the appli
 Sleep data are automatically collected by the external device during the night and synchronized with the application.
 
 <p align="center">
-  <img src="Images/patient_dashboard.png" width="800">
+  <img src="Images/patient_dashboard.png" width="500">
 </p>
 <p align="center">
   <em>Figure 2 – Patient dashboard showing sleep monitoring data and system navigation.</em>
@@ -130,7 +130,7 @@ This will launch the graphical interface where users can select their role and l
 # External Device Integration 
 The system supports integration with external sleep monitoring devices. Once connected via Bluetooth, the device automatically uploads collected physiological data to the system database. These data include heart rate, respiratory rate, sleep stages, apnea events and night movements. The data are then visualized through graphs and reports in the application interface. 
 <p align="center">
-  <img src="Images/sleep_analysis.png" width="800">
+  <img src="Images/sleep_analysis.png" width="500">
 </p>
 <p align="center">
   <em>Figure 5 – Sleep Analysis visualization from external device.</em>
