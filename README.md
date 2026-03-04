@@ -90,7 +90,7 @@ pip install -r requirements.txt
 ```
 
 # Running the Application 
-To start the application, run: 
+After creating thr database and filled it, to start the application, run: 
 ```bash 
-python main.py
+python SoftwareInteraction.py
 ```
